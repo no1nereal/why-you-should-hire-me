@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 2.2;
+    background-color: #eae8f1;
+    color: #414141;
+    display: flex;
+    
+}
+
+nav{
+    position: fixed;
+    padding-left: 1.5vw;
+    padding-right: 1vw;
+    border-right: 3px solid rgb(230, 139, 3);
+    height: 100vh;
+    background-color: #343338;
+    color: white;
+    width: 240px; 
+    padding: 15px;
+
+}
+
+nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: rgb(230, 139, 3);
+    padding-left: 10px;
+    transition: 0.3s;
+}
+
+#navbar ul{
+    padding-top: 1.5vh;
+    color: white;
+    list-style: none;
+    font-size: 20px;
+}
+
+.nav-link{
+    line-height: 4;
+
+}
+
+header{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+main{
+    margin-left: 15.5vw;
+    width: 84vw;
+    padding: 1.2vw;
+    max-width: 84vw;
+}
+
+.main-section {
+    background: rgb(228, 228, 228);
+    padding: 20px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 5px 2px 13px rgba(0, 0, 0, 0.5);
+
+}
+
+main p{
+    margin-left: 20px;
+}
+
+
+main li{
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+code{
+    background-color: #2b2b2b;
+    color: #f8f8f2;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: monospace;
+    margin-left: 25px;
+}
+
+#See_for_Yourself li {
+    margin-top: -1px;
+}
+
+#See_for_Yourself ul a{
+    color: rgb(255, 153, 0);
+}
+
+#See_for_Yourself ul a:hover{
+    color: rgb(255, 153, 0);
+    padding-left: 10px;
+    transition: 0.3s;
+}
+
+
+.contact{
+    font-weight: bold;
+}
+
+@media (max-width: 768px){
+    nav{
+        position: relative;
+        width: 100%;
+        border-right: none;
+        border-bottom: 3px solid rgb(230, 139, 3);
+        text-align: center;
+
+
+    }
+
+    nav ul{
+       display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .nav-link {
+        line-height: normal;
+        padding: 5px;
+        font-size: 16px;
+    }
+
+        #navbar ul li {
+        margin: 0 10px;
+        display: inline-block;
+    }
+
+    .main-section{
+        margin-left: 0;
+        width: 100%;
+        padding: auto;
+    }
+}
